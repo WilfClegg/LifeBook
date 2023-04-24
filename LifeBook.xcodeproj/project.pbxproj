@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF8EFD0F29CF922F00668855 /* LifeBookEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD0E29CF922F00668855 /* LifeBookEntryPoint.swift */; };
+		DF8EFD1329CF923200668855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8EFD1229CF923200668855 /* Assets.xcassets */; };
+		DF8EFD1629CF923200668855 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8EFD1529CF923200668855 /* Preview Assets.xcassets */; };
+		DF8EFD2229CF92E400668855 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD2129CF92E400668855 /* Color.swift */; };
+		DF8EFD2529CF93B300668855 /* ContactsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD2329CF93B300668855 /* ContactsDataModel.xcdatamodeld */; };
+		DF8EFD2729CF93C700668855 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD2629CF93C700668855 /* CoreDataManager.swift */; };
+		DF8EFD2929CF93D800668855 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD2829CF93D800668855 /* Contact.swift */; };
+		DF8EFD2B29CF93E400668855 /* NumbersOnlyAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD2A29CF93E400668855 /* NumbersOnlyAlgorithm.swift */; };
+		DF8EFD2D29CF93F400668855 /* EditContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD2C29CF93F400668855 /* EditContactViewModel.swift */; };
+		DF8EFD2F29CF940100668855 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD2E29CF940100668855 /* ContactListView.swift */; };
+		DF8EFD3529CF941600668855 /* CompanyContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD3129CF941600668855 /* CompanyContactView.swift */; };
+		DF8EFD3629CF941600668855 /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD3229CF941600668855 /* ContactRowView.swift */; };
+		DF8EFD3729CF941600668855 /* MedicalContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD3329CF941600668855 /* MedicalContactView.swift */; };
+		DF8EFD3829CF941600668855 /* PersonContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD3429CF941600668855 /* PersonContactView.swift */; };
+		DF8EFD3E29CF942900668855 /* CompanyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD3A29CF942900668855 /* CompanyDetailView.swift */; };
+		DF8EFD3F29CF942900668855 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD3B29CF942900668855 /* ContactDetailView.swift */; };
+		DF8EFD4029CF942900668855 /* MedicalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD3C29CF942900668855 /* MedicalDetailView.swift */; };
+		DF8EFD4129CF942900668855 /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD3D29CF942900668855 /* PersonDetailView.swift */; };
+		DF8EFD4329CF943C00668855 /* CreateContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD4229CF943C00668855 /* CreateContactView.swift */; };
+		DF8EFD4529CF944B00668855 /* ZeroContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EFD4429CF944B00668855 /* ZeroContactsView.swift */; };
+		DF8EFD4A29CF956A00668855 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = DF8EFD4929CF956A00668855 /* iPhoneNumberField */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF8EFD0B29CF922F00668855 /* LifeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8EFD0E29CF922F00668855 /* LifeBookEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeBookEntryPoint.swift; sourceTree = "<group>"; };
+		DF8EFD1229CF923200668855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF8EFD1529CF923200668855 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF8EFD2129CF92E400668855 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DF8EFD2429CF93B300668855 /* ContactDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactDataModel.xcdatamodel; sourceTree = "<group>"; };
+		DF8EFD2629CF93C700668855 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DF8EFD2829CF93D800668855 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		DF8EFD2A29CF93E400668855 /* NumbersOnlyAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersOnlyAlgorithm.swift; sourceTree = "<group>"; };
+		DF8EFD2C29CF93F400668855 /* EditContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditContactViewModel.swift; sourceTree = "<group>"; };
+		DF8EFD2E29CF940100668855 /* ContactListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		DF8EFD3129CF941600668855 /* CompanyContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyContactView.swift; sourceTree = "<group>"; };
+		DF8EFD3229CF941600668855 /* ContactRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
+		DF8EFD3329CF941600668855 /* MedicalContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalContactView.swift; sourceTree = "<group>"; };
+		DF8EFD3429CF941600668855 /* PersonContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonContactView.swift; sourceTree = "<group>"; };
+		DF8EFD3A29CF942900668855 /* CompanyDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyDetailView.swift; sourceTree = "<group>"; };
+		DF8EFD3B29CF942900668855 /* ContactDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		DF8EFD3C29CF942900668855 /* MedicalDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalDetailView.swift; sourceTree = "<group>"; };
+		DF8EFD3D29CF942900668855 /* PersonDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
+		DF8EFD4229CF943C00668855 /* CreateContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateContactView.swift; sourceTree = "<group>"; };
+		DF8EFD4429CF944B00668855 /* ZeroContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZeroContactsView.swift; sourceTree = "<group>"; };
+		DF8EFD4629CF94E900668855 /* iPhoneNumberField */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = iPhoneNumberField; path = "../../../../../Users/wilfredlalonde/Library/Developer/Xcode/DerivedData/LifeBook-amxipejcdivzctfomazhrgqaasgp/SourcePackages/checkouts/iPhoneNumberField"; sourceTree = "<group>"; };
+		DFF5A29929CF9A83001EF58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DFF5A29A29CFA170001EF58D /* LifeBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LifeBook.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF8EFD0829CF922F00668855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8EFD4A29CF956A00668855 /* iPhoneNumberField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF8EFD0229CF922F00668855 = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD0D29CF922F00668855 /* LifeBook */,
+				DF8EFD0C29CF922F00668855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8EFD0C29CF922F00668855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD0B29CF922F00668855 /* LifeBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8EFD0D29CF922F00668855 /* LifeBook */ = {
+			isa = PBXGroup;
+			children = (
+				DFF5A29A29CFA170001EF58D /* LifeBook.entitlements */,
+				DFF5A29929CF9A83001EF58D /* Info.plist */,
+				DF8EFD0E29CF922F00668855 /* LifeBookEntryPoint.swift */,
+				DF8EFD2029CF92BD00668855 /* Extensions */,
+				DF8EFD1F29CF92AF00668855 /* CoreData */,
+				DF8EFD1E29CF92A700668855 /* Model */,
+				DF8EFD1D29CF929700668855 /* ViewModels */,
+				DF8EFD1C29CF928700668855 /* Views */,
+				DF8EFD1229CF923200668855 /* Assets.xcassets */,
+				DF8EFD1429CF923200668855 /* Preview Content */,
+			);
+			path = LifeBook;
+			sourceTree = "<group>";
+		};
+		DF8EFD1429CF923200668855 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD4629CF94E900668855 /* iPhoneNumberField */,
+				DF8EFD1529CF923200668855 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF8EFD1C29CF928700668855 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD2E29CF940100668855 /* ContactListView.swift */,
+				DF8EFD3029CF941600668855 /* ContactRowViews */,
+				DF8EFD3929CF942900668855 /* ContactDetailViews */,
+				DF8EFD4229CF943C00668855 /* CreateContactView.swift */,
+				DF8EFD4429CF944B00668855 /* ZeroContactsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF8EFD1D29CF929700668855 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD2C29CF93F400668855 /* EditContactViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DF8EFD1E29CF92A700668855 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD2829CF93D800668855 /* Contact.swift */,
+				DF8EFD2A29CF93E400668855 /* NumbersOnlyAlgorithm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF8EFD1F29CF92AF00668855 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD2329CF93B300668855 /* ContactsDataModel.xcdatamodeld */,
+				DF8EFD2629CF93C700668855 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		DF8EFD2029CF92BD00668855 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD2129CF92E400668855 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF8EFD3029CF941600668855 /* ContactRowViews */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD3229CF941600668855 /* ContactRowView.swift */,
+				DF8EFD3429CF941600668855 /* PersonContactView.swift */,
+				DF8EFD3129CF941600668855 /* CompanyContactView.swift */,
+				DF8EFD3329CF941600668855 /* MedicalContactView.swift */,
+			);
+			path = ContactRowViews;
+			sourceTree = "<group>";
+		};
+		DF8EFD3929CF942900668855 /* ContactDetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				DF8EFD3B29CF942900668855 /* ContactDetailView.swift */,
+				DF8EFD3D29CF942900668855 /* PersonDetailView.swift */,
+				DF8EFD3A29CF942900668855 /* CompanyDetailView.swift */,
+				DF8EFD3C29CF942900668855 /* MedicalDetailView.swift */,
+			);
+			path = ContactDetailViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF8EFD0A29CF922F00668855 /* LifeBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8EFD1929CF923200668855 /* Build configuration list for PBXNativeTarget "LifeBook" */;
+			buildPhases = (
+				DF8EFD0729CF922F00668855 /* Sources */,
+				DF8EFD0829CF922F00668855 /* Frameworks */,
+				DF8EFD0929CF922F00668855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeBook;
+			packageProductDependencies = (
+				DF8EFD4929CF956A00668855 /* iPhoneNumberField */,
+			);
+			productName = LifeBook;
+			productReference = DF8EFD0B29CF922F00668855 /* LifeBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8EFD0329CF922F00668855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DF8EFD0A29CF922F00668855 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DF8EFD0629CF922F00668855 /* Build configuration list for PBXProject "LifeBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF8EFD0229CF922F00668855;
+			packageReferences = (
+				DF8EFD4829CF956A00668855 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
+			productRefGroup = DF8EFD0C29CF922F00668855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF8EFD0A29CF922F00668855 /* LifeBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8EFD0929CF922F00668855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8EFD1629CF923200668855 /* Preview Assets.xcassets in Resources */,
+				DF8EFD1329CF923200668855 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8EFD0729CF922F00668855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8EFD2F29CF940100668855 /* ContactListView.swift in Sources */,
+				DF8EFD4329CF943C00668855 /* CreateContactView.swift in Sources */,
+				DF8EFD3829CF941600668855 /* PersonContactView.swift in Sources */,
+				DF8EFD2929CF93D800668855 /* Contact.swift in Sources */,
+				DF8EFD2529CF93B300668855 /* ContactsDataModel.xcdatamodeld in Sources */,
+				DF8EFD3529CF941600668855 /* CompanyContactView.swift in Sources */,
+				DF8EFD2B29CF93E400668855 /* NumbersOnlyAlgorithm.swift in Sources */,
+				DF8EFD4129CF942900668855 /* PersonDetailView.swift in Sources */,
+				DF8EFD4529CF944B00668855 /* ZeroContactsView.swift in Sources */,
+				DF8EFD3629CF941600668855 /* ContactRowView.swift in Sources */,
+				DF8EFD2D29CF93F400668855 /* EditContactViewModel.swift in Sources */,
+				DF8EFD3F29CF942900668855 /* ContactDetailView.swift in Sources */,
+				DF8EFD3E29CF942900668855 /* CompanyDetailView.swift in Sources */,
+				DF8EFD0F29CF922F00668855 /* LifeBookEntryPoint.swift in Sources */,
+				DF8EFD3729CF941600668855 /* MedicalContactView.swift in Sources */,
+				DF8EFD2729CF93C700668855 /* CoreDataManager.swift in Sources */,
+				DF8EFD2229CF92E400668855 /* Color.swift in Sources */,
+				DF8EFD4029CF942900668855 /* MedicalDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF8EFD1729CF923200668855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF8EFD1829CF923200668855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF8EFD1A29CF923200668855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LifeBook/LifeBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeBook/Preview Content\"";
+				DEVELOPMENT_TEAM = W7WL9GL3F6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifeBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylancleggcorporation.LifeBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF8EFD1B29CF923200668855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LifeBook/LifeBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeBook/Preview Content\"";
+				DEVELOPMENT_TEAM = W7WL9GL3F6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifeBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylancleggcorporation.LifeBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8EFD0629CF922F00668855 /* Build configuration list for PBXProject "LifeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8EFD1729CF923200668855 /* Debug */,
+				DF8EFD1829CF923200668855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8EFD1929CF923200668855 /* Build configuration list for PBXNativeTarget "LifeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8EFD1A29CF923200668855 /* Debug */,
+				DF8EFD1B29CF923200668855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF8EFD4829CF956A00668855 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF8EFD4929CF956A00668855 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF8EFD4829CF956A00668855 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		DF8EFD2329CF93B300668855 /* ContactsDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF8EFD2429CF93B300668855 /* ContactDataModel.xcdatamodel */,
+			);
+			currentVersion = DF8EFD2429CF93B300668855 /* ContactDataModel.xcdatamodel */;
+			path = ContactsDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF8EFD0329CF922F00668855 /* Project object */;
+}
